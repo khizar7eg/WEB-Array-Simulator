@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Simulator</title>
+	<link rel="stylesheet" type="text/css" href="WEStyle.css">
+	
+
+
+</head>
+<body>
+
+	<div class="ArrayForm">
+		<img src="icon.png" class="icon">
+		<h1>JavaScript Array Simulator</h1>
+		<h6>Khizar Hayat</h6>
+
+<form action="" name="arrayForm">
+	<p>Item</p>
+	<input type="text" name="Item" id="item" placeholder="Enter the Item">
+	<p>Index</p>
+	<input type="text" name="Index" id="index" placeholder="Enter the Index">
+	<p>Options</p><br>
+	
+
+<div class="LeftSide">
+	<input type="checkbox" id="c1" onclick="enableFunction1()"><button id="b1" disabled="true" onclick="pushFunction(); return false;">Push</button>
+	<br><br>
+	<input type="checkbox" id="c3" onclick="enableFunction3()"><button id="b3" disabled="true" onclick="shiftFunction(); return false;">Shift</button>
+	<br><br>
+	<input type="checkbox" id="c5" onclick="enableFunction5()"><button id="b5" disabled="true" onclick="deleteFunction(); return false;">Delete</button>
+	<br><br>
+	<input type="checkbox" id="c7" onclick="enableFunction7()"><button id="b7" disabled="true" onclick="indexofFunction(); return false;">Index of</button>
+	<br><br>
+	<input type="checkbox" id="c9" onclick="enableFunction9()"><button id="b9" disabled="true" onclick="reverseFunction(); return false;">Reverse</button>
+</div>
+
+<div class="RightSide">	
+	<input type="checkbox" id="c2" onclick="enableFunction2()"><button id="b2" disabled="true" onclick="popFunction(); return false;">Pop</button>
+	<br><br>
+	<input type="checkbox" id="c4" onclick="enableFunction4()"><button id="b4" disabled="true" onclick="popFunction(); return false;">Unshift</button>
+	<br><br>
+	<input type="checkbox" id="c6" onclick="enableFunction6()"><button id="b6" disabled="true" onclick="sortFunction(); return false;">Sort</button>
+	<br><br>
+	<input type="checkbox" id="c8" onclick="enableFunction8()"><button id="b8" disabled="true" onclick="valueatFunction(); return false;">Value at</button>
+	<br><br>
+	<input type="checkbox" id="c10" onclick="enableFunction10()"><button id="b10" disabled="true" onclick="updateFunction(); return false;">Update</button>
+</div>
+
+	<br><br><br><br><br><br><br><br><br><br>
+	<p>Array</p>
+	<p id="output"></p>
+</form>
+    </div>
+
+<script type="text/javascript" src="WEScript.js"></script> 
+</body>
+</html>
